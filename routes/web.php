@@ -18,3 +18,5 @@ Route::get('/about', function () {
 Route::get('/matakuliah', [MatakuliahController::class, 'index']);
 
 Route::get('/matakuliah/show/{kode?}', [MatakuliahController::class, 'show']);
+
+Route::get('/home',[HomeController::class,'index']);
